@@ -18,7 +18,7 @@ function App() {
       localStorage.getItem("hasVoted") === "0" ||
       localStorage.getItem("hasVoted") == undefined
     ) {
-      fetch("http://localhost:8080/aula", {
+      fetch("https://externally-handy-maggot.ngrok-free.app/aula", {
         method: "POST",
         mode: "cors",
         headers: {
@@ -44,7 +44,7 @@ function App() {
   }
 
   function resultado() {
-    fetch("http://localhost:8080/votos", {
+    fetch("https://externally-handy-maggot.ngrok-free.app/votos", {
       method: "GET",
       mode: "cors",
       headers: {

@@ -50,6 +50,7 @@ function App() {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
+        "ngrok-skip-browser-warning": "69420",
       },
     })
       .then(async function (response) {

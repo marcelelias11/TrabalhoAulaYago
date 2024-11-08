@@ -74,16 +74,16 @@ function App() {
     <>
       <div id="cartascontainer">
       <form>
-        <label>Empresa:</label>
+        <label>Aluno:</label>
         <select name="empresas" id="empresas">
-          <option>Opção 1</option>
-          <option>Opção 2</option>
+          <option>Marcelo</option>
+          <option>Maria Vitória</option>
           </select>
         <br /><br />
-        <label>Candidato:</label>
+        <label>Nota:</label>
         <select name="candidatos" id="candidatos">
-        <option>Opção 3</option>
-        <option>Opção 4</option></select>
+        <option>10</option>
+        <option>11</option></select>
         <br /><br />
       </form>
       <div id="buttondiv">
